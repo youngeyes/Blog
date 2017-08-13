@@ -1,9 +1,9 @@
 name: "Blog of Youngeyes"
 description: "Web Front-End Blog by Youngeyes"
 
-url: "/"
-loadingImg: "/img/loading.gif"
-filePath: "/img/"
+url: "https://youngeyes.github.io/Blog/"
+loadingImg: "https://youngeyes.github.io/Blog/img/loading.gif"
+filePath: "https://youngeyes.github.io/Blog/img/"
 
 timezone: Asia/Shanghai
 
