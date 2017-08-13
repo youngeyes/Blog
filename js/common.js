@@ -4,10 +4,19 @@ function loadMusic() {
         $('#music-content').append('<iframe frameborder="no" border="0"'
                 + ' marginwidth="0" marginheight="0" width=330 height=450'
                 + ' src="http://music.163.com/outchain/player?type=0'
-                + '&id=49176408&auto=0&height=430"></iframe>');
+                + '&id=367186410&auto=0&height=430"></iframe>');
     }
 }
-
+function showimg() {
+    //var Oimg = $('#weixin').css('display');
+    //if (Oimg=='none') {
+    //    Oimg = 'block';
+    //}
+    $('#weixin').show();
+}
+function hiddenimg() {
+    $('#weixin').hide();
+}
 var isFirstToggleMusic = true;
 function toggleMusicPanel() {
     $('#music-control').toggleClass('on');
@@ -33,7 +42,7 @@ function processPageView(rows) {
     $('.post-block').each(function() {
         var myPath = $(this).children('h2').children('a').attr('href');
         if (myPath) {
-            myPath = myPath.slice('http://zhangwenli.com'.length);
+            myPath = myPath.slice('/'.length);
             var len = rows.length;
             var cnt = 0;
             for (var i = 0; i < len; ++i) {
@@ -55,9 +64,9 @@ function processPageView(rows) {
     });
 }
 
-LazyLoad.css('/blog/css/font.css');
+LazyLoad.css('/css/font.css');
 
-LazyLoad.js('/blog/js/jquery-1.11.1.min.js', function () {
+LazyLoad.js('/js/jquery-1.11.1.min.js', function () {
     hideRecentSectionWhenNoPost();
 
     $('h1').each(function() {
@@ -72,37 +81,15 @@ LazyLoad.js('/blog/js/jquery-1.11.1.min.js', function () {
     });
 
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) === false) {
-        LazyLoad.js('/blog/js/jquery.timeago.min.js', function () {
+        LazyLoad.js('/js/jquery.timeago.min.js', function () {
             $('.timeago').timeago().show();
         });
     }
 
-    LazyLoad.js('/blog/js/unviel.min.js', function () {
+    LazyLoad.js('/js/unviel.min.js', function () {
         $("img").unveil();
 
-        // // google pageview
-        // setTimeout(function() {
-        //     $.ajax({
-        //         url: 'https://ovilia-blog-1234.appspot.com/query?id=ahJzfm92aWxpYS1ibG9nLTEyMzRyFQsSCEFwaVF1ZXJ5GICAgIC6qI4KDA',
-        //         dataType: 'jsonp',
-        //         timeout: 1000 * 3, // 3 sec
-        //         success: function(data) {
-        //             processPageView(data.rows);
-        //         },
-        //         error: function() {
-        //             // if fail to get up-to-date data from GAE, get cached local version
-        //             console.log('Failed to get page view from GAE!');
-        //             $.ajax({
-        //                 url: '/blog/pageview.json',
-        //                 dataType: 'json',
-        //                 success: function(data) {
-        //                     console.log('Local page view used.');
-        //                     processPageView(data.rows);
-        //                 }
-        //             })
-        //         }
-        //     });
-        // }, 2000);
+        
     });
 
     // add target="_blank" for external links
@@ -122,8 +109,8 @@ LazyLoad.js('/blog/js/jquery-1.11.1.min.js', function () {
 
 // emoji
 setTimeout(function() {
-    LazyLoad.css('/blog/css/emojify.min.css', function () {
-        LazyLoad.js('/blog/js/emojify.min.js', function () {
+    LazyLoad.css('/css/emojify.min.css', function () {
+        LazyLoad.js('/js/emojify.min.js', function () {
             emojify.setConfig({
                 emoticons_enabled: true,
                 people_enabled: true,

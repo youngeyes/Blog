@@ -24,7 +24,7 @@
         <meta name="description" content="{{ site.description }}" />
         <meta name="viewport" content="width=100%, initial-scale=1" />
 
-        <link rel="shortcut icon" href="{{ site.filePath }}/owl.ico" />
+        <link rel="shortcut icon" href="{{ site.filePath }}/titleico.ico" />
         <link rel="stylesheet" type="text/css" href="{{ site.url }}/css/default.min.css" />
     </head>
     
@@ -38,7 +38,4 @@
                 {% assign isZn = true %}
             {% endif %}
         {% endfor %}
-        <div id="mobile-nav">
-            <a href="http://zhangwenli.com" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InNavMobile', window.location.pathname]);">{% if isZn %}首页{% else %}Home{% endif %}</a><a href="{{ site.url }}" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InNavMobile', window.location.pathname]);">{% if isZn %}博客{% else %}Blog{% endif %}</a>
-        </div>
         <div class="contentDiv">

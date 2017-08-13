@@ -1,11 +1,10 @@
 ---
 layout: default
 ---
-<title>All Posts - Wenli Zhang</title>
+<title>All Posts - Youngeyes</title>
 
 <div class="simpleNav">
-    <a href="http://zhangwenli.com" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToHome', 'InAll', window.location.pathname]);">Home</a>
-    <a href="{{ site.url }}" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InAll', window.location.pathname]);">Blog</a>
+    <a href="{{ site.url }}" class="pageDiv" onclick="_gaq.push(['_trackEvent', 'ToBlog', 'InAll', window.location.pathname]);">博客首页</a>
 </div>
 <div class="pageTitle">All Posts</div>
 
@@ -22,7 +21,7 @@ layout: default
 
     {% assign isZn = false %}
     {% for tag in post.tags %}
-        {% if tag == '中文'%}
+        {% if tag == '生活'%}
             {% assign isZn = true %}
         {% endif %}
     {% endfor %}

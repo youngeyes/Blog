@@ -1,9 +1,9 @@
-name: "Blog of Wenli Zhang"
-description: "Web Front-End Blog by Wenli Zhang"
+name: "Blog of Youngeyes"
+description: "Web Front-End Blog by Youngeyes"
 
-url: "http://zhangwenli.com/blog"
-loadingImg: "http://zhangwenli.com/blog/img/loading.gif"
-filePath: "http://zhangwenli.com/blog/img/"
+url: "/"
+loadingImg: "/img/loading.gif"
+filePath: "/img/"
 
 timezone: Asia/Shanghai
 
