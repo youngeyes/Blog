@@ -64,9 +64,9 @@ function processPageView(rows) {
     });
 }
 
-LazyLoad.css('https://youngeyes.github.io/Blog/css/font.css');
+LazyLoad.css('/Blog/css/font.css');
 
-LazyLoad.js('https://youngeyes.github.io/Blog/js/jquery-1.11.1.min.js', function () {
+LazyLoad.js('/Blog/js/jquery-1.11.1.min.js', function () {
     hideRecentSectionWhenNoPost();
 
     $('h1').each(function() {
@@ -81,12 +81,12 @@ LazyLoad.js('https://youngeyes.github.io/Blog/js/jquery-1.11.1.min.js', function
     });
 
     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) === false) {
-        LazyLoad.js('https://youngeyes.github.io/Blog/js/jquery.timeago.min.js', function () {
+        LazyLoad.js('/Blog/js/jquery.timeago.min.js', function () {
             $('.timeago').timeago().show();
         });
     }
 
-    LazyLoad.js('https://youngeyes.github.io/Blog/js/unviel.min.js', function () {
+    LazyLoad.js('/Blog/js/unviel.min.js', function () {
         $("img").unveil();
 
         
@@ -109,8 +109,8 @@ LazyLoad.js('https://youngeyes.github.io/Blog/js/jquery-1.11.1.min.js', function
 
 // emoji
 setTimeout(function() {
-    LazyLoad.css('https://youngeyes.github.io/Blog/css/emojify.min.css', function () {
-        LazyLoad.js('https://youngeyes.github.io/Blog/js/emojify.min.js', function () {
+    LazyLoad.css('/Blog/css/emojify.min.css', function () {
+        LazyLoad.js('/Blog/js/emojify.min.js', function () {
             emojify.setConfig({
                 emoticons_enabled: true,
                 people_enabled: true,
