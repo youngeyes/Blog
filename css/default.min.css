@@ -514,13 +514,12 @@ h1 > a, blockquote a h1 > em {
 body {
     background-color: #e9fbf8;
     background-image: -webkit-radial-gradient(50% 0, ellipse farthest-corner, #DBF5F1 0%, #9BE4D8 100%);
-    background-image: radial-gradient(ellipse farthest-corner at 50% 0, #DBF5F1 0%, #abc37b 100%);
+    background-image: radial-gradient(ellipse farthest-corner at 50% 0, #DBF5F1 0%, rgba(0, 93, 128, 0.62) 100%);
     color: #333;
     overflow-x: hidden;
     font-family: Lato,"Microsoft YaHei",sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
-    background: url("../img/bodyimg.jpg");
 }
 
 ::-moz-selection {
