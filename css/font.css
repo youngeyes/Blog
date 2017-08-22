@@ -2,26 +2,26 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Light'), local('Lato-Light'), url('https://youngeyes.github.io/Blog/font/lato400.woff') format('woff');
+  src: local('Lato Light'), local('Lato-Light'), url('https://github.com/youngeyes/Blog/raw/gh-pages/font/lato400.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'), url('https://youngeyes.github.io/Blog/font/lato900.woff') format('woff');
+  src: local('Lato Black'), local('Lato-Black'), url('https://github.com/youngeyes/Blog/raw/gh-pages/font/lato900.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url('https://youngeyes.github.io/Blog/font/lato400i.woff') format('woff');
+  src: local('Lato Italic'), local('Lato-Italic'), url('https://github.com/youngeyes/Blog/raw/gh-pages/font/lato400i.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 900;
-  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url('https://youngeyes.github.io/Blog/font/lato900i.woff') format('woff');
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url('https://github.com/youngeyes/Blog/raw/gh-pages/font/lato900i.woff') format('woff');
 }
