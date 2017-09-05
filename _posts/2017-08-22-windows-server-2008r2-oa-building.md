@@ -9,6 +9,7 @@ tags:
   - tomcat
 excerpt: 此博文针对服务器搭建javaweb作个记录，主要涉及到jdk、mysql的安装以及环境变量的配置方法，采用tomcat作为web服务器，当然还可以用其他的比如apache等。
 ---
+
 > 目录
 > * 安装jdk
 > * 安装mysql
@@ -24,7 +25,7 @@ excerpt: 此博文针对服务器搭建javaweb作个记录，主要涉及到jdk�
 ## 安装jdk
 1.jdk下载， [官网下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) [百度云盘下载](http://pan.baidu.com/s/1dFtj2DV)<br/>
 2.正常安装，安装很简单，根据jdk安装向导安装即可，记住安装的安装路径，配置环境变量。
-> <img class="single-img" src="https://youngeyes.github.io/Blog/img/post/path1.png" data-src="https://youngeyes.github.io/Blog/img/post/path1.png">
+<img class="single-img" src="https://youngeyes.github.io/Blog/img/post/path1.png" data-src="https://youngeyes.github.io/Blog/img/post/path1.png">
 新建JAVA_HOME环境变量，如图：
 <img class="single-img" src="https://youngeyes.github.io/Blog/img/post/path2.png" data-src="https://youngeyes.github.io/Blog/img/post/path2.png">
 对path变量进行编辑，在path变量末尾加上` ;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;`
