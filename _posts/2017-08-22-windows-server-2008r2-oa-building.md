@@ -22,7 +22,7 @@ excerpt: 此博文针对服务器搭建javaweb作个记录，主要涉及到jdk�
 5.操作系统：windows server 2008 r2
 
 ## 安装jdk
-1.jdk下载，[官网下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) [百度云盘下载](http://pan.baidu.com/s/1dFtj2DV)<br/>
+1.jdk下载， [官网下载地址](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) [百度云盘下载](http://pan.baidu.com/s/1dFtj2DV)<br/>
 2.正常安装，安装很简单，根据jdk安装向导安装即可，记住安装的安装路径，配置环境变量。
 <img class="single-img" src="https://youngeyes.github.io/Blog/img/post/path1.png" data-src="https://youngeyes.github.io/Blog/img/post/path1.png">
 新建JAVA_HOME环境变量，如图：
