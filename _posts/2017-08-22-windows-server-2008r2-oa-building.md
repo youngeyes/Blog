@@ -9,7 +9,6 @@ tags:
   - tomcat
 excerpt: 此博文针对服务器搭建javaweb作个记录，主要涉及到jdk、mysql的安装以及环境变量的配置方法，采用tomcat作为web服务器，当然还可以用其他的比如apache等。
 ---
-
 > 目录
 > * 安装jdk
 > * 安装mysql
