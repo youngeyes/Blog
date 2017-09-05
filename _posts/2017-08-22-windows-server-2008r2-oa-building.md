@@ -14,7 +14,6 @@ excerpt: 此博文针对服务器搭建javaweb作个记录，主要涉及到jdk�
 > * 安装jdk
 > * 安装mysql
 > * 安装Tomcat
-
 ## 环境配置
 1.OA系统：Java开发的.jsp网页<br/>
 2.Web服务器：tomcat7.0<br/>
