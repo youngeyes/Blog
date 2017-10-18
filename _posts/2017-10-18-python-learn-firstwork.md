@@ -1,6 +1,6 @@
 ---
 title: python入门学习之第一个程序
-time: 2017.10.17
+time: 2017.08.25
 layout: post
 tags:
   - 技术
