@@ -90,6 +90,7 @@ adb shell pm list package -3    #查看第三方安装包的信息
 4. 使用```auth +鉴权码```开启模拟器功能，授权之后可以对模拟器进行一些操作，可以用help查看命令
 5. 模拟电话：```gsm call 10086```
 6. 模拟短信：```sms send 10086 "短信内容"```
+
 ## monkey测试
 monkey是Android系统自带的一个命令行工具，monkey可以向被测的应用程序发送伪随机事件，实现对应用程序的稳定性和健壮性的测试。<br/>
 格式：```adb shell monkey -p 包名 随机操作次数```<br/>
